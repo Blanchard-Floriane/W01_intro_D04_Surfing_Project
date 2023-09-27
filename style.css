@@ -1,0 +1,6 @@
+.surfimage {
+  background-image: url(./assets/surf.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
