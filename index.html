@@ -62,7 +62,7 @@
       <!-- Flexbox to centrer horizontaly my buttons, even my screen is a phone size -->
       <div class="d-flex justify-content-center m-2">
         <a href="#" class="btn btn-primary fw-light lh-base mx-1" role="button" data-bs-toggle="button">Je m'inscris à la prochaine session</a>
-        <a href="#" class="btn btn-secondary active fw-light lh-base" role="button" data-bs-toggle="button" aria-pressed="true">Je découvre le programme</a>
+        <a href="#" class="btn btn-secondary text-white active fw-light lh-base" role="button" data-bs-toggle="button" aria-pressed="true">Je découvre le programme</a>
       </div>
     </div>
   </hero>
@@ -109,22 +109,20 @@
     <div class="p-3 pb-md-4 mx-auto text-center">
       <p class="h2 display-4 fw-normal py-4">Témoignages</p>
       <!-- Mes  colonnes avec photo de la section tmoignages-->
-      <div class="row">
-        <div class="card mb-3">
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-start mx-md-5 ">
+        <div class="card mb-2 mb-md-0 me-md-3">
           <img src="assets/beach.jpg" class="card-img-top" alt="Un surfeur assis sur le bord de la mer qui regarde au loin vers l'océan">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text text-start fs-6 fw-light text lh-sm">Surfing's not a sport, it's a way of life, it's no hobby. It's a way of looking at that wave and saying, "Hey bud, let's party!"</p>
+            <p class="card-text text-start fw-light"><small class="text-muted">Jeff, Avril 2019</small></p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        <div class="card mt-2 mt-md-0 ms-md-3">
           <img src="assets/van.jpg" class="card-img-bottom" alt="Un combi avec des planches de surf appuyées">
+          <div class="card-body">
+            <p class="card-text text-start fs-6 fw-light text lh-sm">Grâce à TSP je fais le tour du monde avec mon van et fais du surf ! Si l'expérience était à refaire, je le referais plein de fois.</p>
+            <p class="card-text text-start fw-light"><small class="text-muted">Jean-Michel, Octobre 2018</small></p>
+          </div>
         </div>
       </div>
     </div>
@@ -189,19 +187,11 @@
         </div>
       </main>
     </div>
-
   </content>
-  
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"
-  ></script>
 
   <!--footer copyright -->
   <footer>
-    <p>&copy; Bootstrap, et The Surfing Project</p>
+    <p class="d-flex justify-content-start fw-lighter fs-6 ms-3 ms-md-5 ps-md-3">&copy; Bootstrap, et The Surfing Project</p>
   </footer>
 </body>
 </html>
